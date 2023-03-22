@@ -1,0 +1,510 @@
+
+*{   /* css reset*/
+    padding: 0;
+    margin: 0;
+    
+}
+main{
+    position: relative;
+    width: 100%; /* largura*/
+    height: 800px; /* altura*/
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    flex-direction: row; /* direção em linha*/
+    width: 100%;
+    height: 100px;
+    
+}
+
+.fa-bars {
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+
+#logo_youtube{
+    width: 70%;
+    height: 80px;
+    margin-top: -10px; 
+    margin-left: 20px;
+}
+
+
+#barra_pesquisa{
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    margin-left: 70px;
+}
+
+#lupa{
+    width: 3%;
+    height: 20px;
+    margin-top: 10px;
+    border: 1px solid #777;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: -2px;
+     
+}
+
+#lupa:hover{
+    background-color: #999;
+    transition: 1.5s;
+}
+
+#microfone{
+    width: 3%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#microfone:hover{
+    background-color: #999;
+    transition: 1.5s;
+}
+
+
+#camera{
+    width: 3%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 90px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#camera:hover{
+    background-color: #999;
+    transition: 1.5s;
+
+}
+
+
+#sino{
+    width: 3%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+#sino:hover{
+    background-color: #999;
+    transition: 1.5s;
+
+}
+
+
+#gmail{
+    width: 3%;
+    height: 40px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
+aside{
+    height: 190vh;
+    overflow-y: scroll;   /* barra de rolagem de cima para baixo*/
+    overflow-x: hidden; /* tira a barra de rolagem inferior*/
+    float: left;
+    width: 19%;
+    padding: 15px 0 0 0;
+    align-items: center;
+}
+
+.aside_fundo{
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.aside_fundo:hover{
+    background-color: #f1f1f1;
+
+}
+
+
+.aside_fundo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+
+
+.active:hover{
+    background-color: #f1f1f1;
+
+}
+
+.aside_fundo i{
+    width: 25%;
+    text-align: center;
+}
+
+#linha{
+    width: 90%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px auto;
+}
+
+.titulo{
+    width: 90%;
+    padding-left: 10px;
+    margin: 0 auto 10px auto;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.aside_fundo .foto_canal{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: auto;
+    
+}
+
+.aside_fundo .vc{
+    background-image: url(imagens/VCSabia.jpg);
+    background-size: cover;
+    margin-left: 14px;
+    
+    
+}
+
+
+.aside_fundo .lucaslira{
+    background-image: url(imagens/lucaslira.jpg);
+    background-size: cover;
+    margin-left: 14px;
+}
+
+.aside_fundo .felipe{
+    background-image: url(imagens/Felipe_Neto_29.webp);
+    background-size: cover;
+    margin-left: 14px;
+}
+
+.aside_fundo .cc{
+    background-image: url(imagens/criadoresid_canal-canalha_canal.jpg);
+    background-size: cover;
+    margin-left: 14px;
+   
+}
+
+
+.foto_canal.premium{
+    background-image: url(imagens/youtubePremium\ -\ Copia.png);
+    background-size: cover;
+    margin-left: 14px;
+}
+
+
+.aside_fundo .studio{
+    background-image: url(imagens/youtubeStudio\ -\ Copia.png);
+    background-size: cover;
+    margin-left: 14px;
+}
+
+.aside_fundo .music{
+    background-image: url(imagens/youtubeMusic\ -\ Copia.png);
+    background-size: cover;
+    margin-left: 14px;
+}
+
+.aside_fundo .kids{
+    background-image: url(imagens/youtubeKids\ -\ Copia.png);
+    background-size: cover;
+    margin-left: 14px;
+
+}
+
+p{
+    text-decoration: none;
+    color: #777;
+    margin-left: 25px;
+}
+
+#google{
+    margin-left: 25px;
+    color: #000;
+    font-size: 10px;
+}
+
+
+nav, a{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 10px;
+    text-decoration: none;
+   
+}
+
+.menus{
+    font-family: arial;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(226, 223, 223);
+}
+
+.tudo{
+    font-family: arial;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #000;
+    margin-left: 10px;
+}
+
+.menus:hover{
+    background-color: #000;
+    transition: 1.0s;
+    color: #fff;
+}
+
+section{
+    width: 80%;
+    top: 80px;
+    height: 600px;
+    margin-top: 20px;
+    background-color: #fff;
+    margin-left: 20%; 
+}
+
+section .video_imagem{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/guanabara.webp);
+    background-size: cover;
+    float: left;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+   
+
+section h3{
+    margin-top: 200px;
+    margin-left: 15px;
+    color: #000;  
+    margin-bottom: 3px;
+}
+
+section p{
+    margin-left: 15px;
+   
+    
+}
+
+section .video_imagem1_1{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/voar.webp);
+    background-size: cover;
+    float: left;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+section .video_imagem1_2{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/ballerini.webp);
+    background-size: cover;
+    float: left;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+
+
+section .video_imagem1{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/proa.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+section .video_imagemfileira2_2{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/frontend.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+section .video_imagemfileira2_3{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/musica.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+
+
+
+section .video_imagem2{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/flexoes.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+section .video_imagemfileira3_1{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/vscode.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+section .video_imagemfileira3_2{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/hino.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+
+
+
+section .video_imagem3{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/cr7.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+section .video_imagemfileira4_2{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/cara.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+section .video_imagemfileira4_3{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url(imagens/flexbox.webp);
+    background-size: cover;
+    float: left;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
